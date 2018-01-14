@@ -6,7 +6,7 @@ identidock:
     ENV: PROD
   links:
     - dnmonster
-    -redis
+    - redis
 
 dnmonster:
   image: amouat/dnmonster:1.0
